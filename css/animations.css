@@ -1,24 +1,24 @@
 .menu {
-    color:#100;
-    font:bold 12/10px sans-serif;
+    color:rgba(252, 14, 14, 0.562);
+    font:bold 15px cursive;
     text-align:center;
     display:inline;
-    margin:0%auto;
+    margin:0% auto;
     padding:0;
     list-style:none;
     text-decoration:none;
 }
 
 .menu li{
-    color:#000;
-    background-color: rgba(255,255,255,1);
+    color:white;
+    background-color: #333;
     display:inline-block;
     margin:0% auto;
     position: relative;
     padding:15px 4%;
-    border:solid 1px #9d9fa2;
-    box-shadow: 2px 2px 10px 0 rgba(0,0,0,0.5);
-    border-radius: 6px;
+    border:solid 1px #000000;
+    box-shadow: 10px 10px 10px 0 black;
+    border-radius: 5px;
     /*background-color #052136;*/
     cursor: pointer;
     transition-property: background;
@@ -104,5 +104,5 @@
 }
 
 .photo:hover img{
-    transform:scale(1.1)
+    transform:scale(3.0)
 }

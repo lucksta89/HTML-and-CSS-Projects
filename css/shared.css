@@ -28,23 +28,16 @@ h1, h2, h3, h4, h5, h6{
 }
 
 h1{
+    font-family: cursive;
     line-height: 50%;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 60px;
     text-transform: uppercase;
     text-align:center;
-    color:#e91c1c;
-    text-shadow: 2px 2px 3px rgba(0,0,0,0.5);
+    color:#333;
+    text-shadow: 15px 15px 15px black;
 }
- h1::after{ /* this is an underline */
-    display:block;
-    content:"";
-    height:2px;
-    width:150px;
-    background:#e91c1c;
-    margin:5px auto 40px;
-    box-shadow:5px 2px 3px rgba(0,0,0,0.5);
-}
+
 
 h2{
     line-height: 50px;
@@ -132,6 +125,7 @@ section{
 
   .menu-container{
       max-height: 340px;
+      word-spacing: 180px;
       margin: 0% auto;
       content:" ";
       /*top:0;
@@ -170,9 +164,9 @@ section{
       color:#fff;
       letter-spacing: 5pt;
       word-spacing: 21pt;
-      font-size:4.5em;
+      font-size:2.5em;
       text-align: left;
-      font-family: impact, sans-serif;
+      font-family: cursive;
       line-height: 2;
       font-weight: 900;
       border:5px double #fff;
@@ -204,7 +198,7 @@ section{
       padding:10px;
       border-radius: 8px;
       margin:0px auto;
-      background-color: rgba(100,65,0,.3);
+      background:linear-gradient(180deg, #333, rgb(32, 32, 82), #333);
       box-shadow:2px 2px 10px 0 rgba(0,0,0,0.5);
 
   }
@@ -250,13 +244,13 @@ section{
     font-size:15px;
     outline:none;
     font-weight: 600;
-    color: #8d8e8f;
+    color: white;
     padding:12px 12px;
     width:70%;
     border:1px solid #8d8d8d;
     margin:2% auto;
     border-radius:7px;
-    background: rgb(227, 222 ,222);
+    background: #333;
     box-shadow:2px 3px 3px 0px rgba(0,0,0,0.3);
     font-family: "raleway",sans-serif;
 }
@@ -265,7 +259,7 @@ section{
     font-size: 15px;
     outline:none;
     font-weight:600;
-    color: #8d5e0f;
+    color: #ffffff;
     padding: 2% 1% 2% 7%;
     width:80%;
     border-top: 1px solid #090e0d;
@@ -280,7 +274,7 @@ section{
 }
 
 .reservation input[type="text"]:hover{
-    box-shadow: 0 0 10px rgba(100,65,0,.8);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.8);
 }
 
 .form-spacer{
@@ -325,7 +319,19 @@ section{
 }
 
 .submit input[type="submit"]:hover{
-    color:#000;
-    background-color:#0d0e0f;
+    color:white;
+    background-color:#0d0e0fa1;
     box-shadow:inset 1px 2px 15px 0 rgba(0,0,0,0.5);
+}
+
+#footer{
+    background-color:#333;
+    color:white;
+    font-size: 20px;
+    font-family: cursive;
+    text-align: center;
+}
+
+.rsvp-text{
+    text-align: center;
 }
