@@ -19,7 +19,7 @@ and the second website was a cinema web-page:
     https://github.com/lucksta89/HTML-and-CSS-Projects/blob/master/bootstrap4_project/academy_cinema.html
 
 
-my third part of the course was to redisgn a web page and then upload that new file to filezilla and then use that to upload my file to the web
+my third part of the course was to redesign a web page and then upload that new file to filezilla and then use that to upload my file to the web
 which i done successfully and the link for that site is listed below
 
        http://site257.co.uk/index1.html
