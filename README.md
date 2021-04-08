@@ -23,7 +23,7 @@ and the second website was a cinema web-page:
 also during the course i took more time to create my own web site which i have spent many many hours on,
 also using bootstrap on some pages and using css inline and external, with the use of lotts of pictures, forms, tables, and much more,
 
-i was lukcy to be able to apply my skills i learnt in the course so far and apply it to my own poroject which is allot of fun!
+i was lucky to be able to apply my skills i learnt in the course so far and apply it to my own project which is allot of fun!
 
 HOPE YOU ENJOY!
 
