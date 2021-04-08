@@ -1,6 +1,6 @@
 WELCOME
 
-[B]in these projects i have created one page website's[/B]
+in these projects i have created one page website's
 
     first website was a spacestation web-page:
     it contains CSS for styling inline and external
