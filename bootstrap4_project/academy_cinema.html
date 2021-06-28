@@ -79,10 +79,35 @@
                         <a class="nav-link" href="a">Beauty and the beast</a>
                     </li>
                 </ul>
-         
-              </div>
-            </div>
+       
+
+
+
+
+
+      <!-- dan's edit  -->
+        <p>
+          <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+            Film of the week!
+          </a>
+        </p>
+        <div class="collapse" id="collapseExample">
+          <div class="card card-body bg-danger"> <!-- made the bg red-->
+       JOHN WICK 3
           </div>
+        </div>
+      </div style="float:none">
+      <!-- End of dan's edit  -->
+
+
+      </div>
+    </div>
+  </div>
+
+
+
+
+
 
 
                 <!-- showtimes   
@@ -155,22 +180,95 @@
                  }
                  
                 </style>
-                <!---- ============================================= end showtimes =============================================-->
+                <!---- ========= end showtimes ============-->
 
 
 
 
-                <div id="deals">
-          <div class="text-center">
-              <form>
-                  <h1 class="text-primary">Sign up for movie club rewards!</h1>
-            <div class="form-group">
-            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-            </div>
-          <button type="submit" class="btn btn-primary">Submit</button>
-            </form>
-        </div>
+                <!---- ========= Jumbotron heading ============-->
+                <div class="jumbotron jumbotron-fluid bg-info mt-5 text-center">
+                  <div class="container">
+                  <h1 class="display-4 hidden-sm-down" style="color:#fff;font-family: roboto;font-weight: 900;text-transform: uppercase;">Movie deals!</h1>
+                  <p class="lead">Check out our monthly deals...</p>
+                  <!-- movie deals -->
+                  <button type="button" class="btn btn-outline-primary" data-toggle="modal" data-target="#register">see our monthly movie deals!</button>
+                  </div>
                 </div>
+                <!---- ========= End Jumbotron heading ============-->
+
+
+
+
+             <!-- Sign up form -->
+
+                      <div id="deals">
+                <div class="text-center">
+                    <form>
+                        <h1 class="text-primary">Sign up for movie club rewards!</h1>
+                  <div class="form-group">
+                  <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                  </div>
+                  <button type="button" class="btn btn-secondary btn-info popover-dismiss" data-container="body" data-toggle="popover" data-placement="top" data-content="Submit your email to receive movie reward deals">
+                Sign up
+                  </button>
+                  </form>
+              </div>
+          </div>
+          <!-- End sign up form -->
+
+
+
+    <!-- Modal form -->
+    <div class="modal fade" id="register">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Register to receive movie deals</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+
+            <form>
+              <fieldset class="form-group">
+                <label for="firstname">First name:</label>
+                <input type="text" class="form-control" id="firstname" placeholder="First name...">
+              </fieldset>
+      
+              <fieldset class="form-group">
+                <label for="lastname">Last name:</label>
+                <input type="text" class="form-control" id="firstname" placeholder="Last name...">
+              </fieldset>
+         
+              <fieldset class="form-group">
+                <label for="email">Email:</label>
+                <input type="text" class="form-control" id="email" placeholder="Email...">
+              </fieldset>
+         
+              <fieldset class="form-group">
+                <label for="password">Password:</label>
+                <input type="text" class="form-control" id="password" placeholder="password...">
+              </fieldset>
+
+              </form>
+
+
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary">Save changes</button>
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <!-- End modal form -->
+
+
+
+
 
 
         <div class="container my-5">
@@ -190,19 +288,20 @@
             </ul>
 
           </div>
-
-
-
-
-
-
-
-
     </div>
 
+
+
+
     <!-- Optional JavaScript -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js" integrity="sha384-SR1sx49pcuLnqZUnnPwx6FCym0wLsk5JZuNx2bPPENzswTNFaQU1RDvt3wT4gWFG" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.min.js" integrity="sha384-j0CNLUeiqtyaRmlzUHCPZ+Gy5fQu0dQ6eZ/xAww941Ai1SxSY+0EQqNXNE6DZiVc" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
-</html><!doctype html>
+
+  <script>
+    $('.popover-dismiss').popover({
+  trigger: 'focus'
+})
+  </script>
+</html>
